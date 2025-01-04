@@ -4,49 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="main.js" defer></script>
-    <title>Document</title>
-</head>
-<body>      
-    <div id="root"></div>
-    <h1>Hello World</h1>
-    <p>This is a paragraph</p>
-    <button>Click me</button>
-    <input type="text" id="input" placeholder="Enter your name">
-    <div id="output"></div>
-    <div class="color">
-        <li class="color">
-            <hook>hokл</hook>
-        </li>
-        <li class="color">
-            <hook></hook>
-        </li>
-        <li class="color">
-            <hook></hook>
-        </li>
-        <li class="color">
-            <hook></hook>
-        </li>
-        <li class="color">
-            <hook></hook>
-        </li>
-    </div>
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="jquery/jquery-3.7.1.min.js"></script>
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+     <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li id="ult">Services</li>
+        </ul>
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+
+            <div class="icons">
+                <a href="https://www.facebook.com">
+                 <img src="icons/Vector(1).png" alt="">
+                </a>
+                <a href="https://mail.google.com">
+                 <img src="icons/Vector.png" alt="">
+                </a>
+                <a href="https://www.instagram.com">
+                 <img src="icons/IMAGE(1).png" alt="">
+                </a>
+            </div>
+     </nav>
+
+     <div class="nav-sav" id="nav-sav">
+         <h1>This is launcing</h1>
+     </div>
+    </header>
+
+    <main>
+      <img class="center-photo" src="images/one.png" alt="">
+      <a href="https://wa.me/12345
+      ">
+      <img class="facebook" src="icons/whatsapp.png" alt="">
+    </a>
+      <div class="text">
+        <p>Tucked away in the corner of Wellington, Latte Cafe is a <br>
+             local neighbourhood cafe and bar. Latte is all about doing <br>
+              what we love, in a city that we love. We keep stocked <br>
+               with local produce and pastries.  Bring your family for a <br>
+               bite, or meet your friends for a coffee or warm drink.</p>
+      </div>
+
+
+      <div id="modal" class="modal">
+        <div class="modal-content">
+         <button id="X" class="X">X</button>
+         <h1>This is Modal</h1>
+         <h3>I created modal with jQuery</h3>
+         <button class="btk">Takeaway</button>
+        </div>
+      </div>
+
+
+      <div class="main-center">
+        <div>
+            <p>Menu</p>
+            <p>We change our menu every season. <br>
+                 Here is what we are currently <br>
+                  dishing up.</p>
+                  
+                  <button id="modal-food">Food Menu</button>
+                  <button>Drinks Menu</button>
+                  <button>Takeaway Menu</button>
+                </div>
+                <div>
+                    <img class="img-mc" src="images/menu.png" width="664px" height="1037px" alt=""></div>
+              </div>
+        </div>
+
+        <div class="main-center-2">
+            <div>
+                <p>Location</p>
+                <p>101 Cuba St, <br>
+                    Te Aro, Wellington</p>
+            </div>
+            <div>
+                <p>Hours</p>
+                <p>Tuesday to Friday <br>
+                    7AM - 3PM</p>
+            </div>
+            <div>
+                <p>Mondays?</p>
+                <p>We are closed on Mondays <br>
+                    to reflect and refuel</p>
+            </div>
+        </div>
+        
+
+       
+    </main>
+   <script src="main.js"></script>
+   
 </body>
 </html>
+
